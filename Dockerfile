@@ -1,4 +1,4 @@
-FROM gliderlabs/alpine:edge
+FROM alpine:latest
 MAINTAINER Daniel Guerra daniel.guerra69@gmail.com 
 RUN  apk update \
   && apk add rsyslog \
