@@ -10,4 +10,4 @@ EXPOSE 514 514/udp
 
 VOLUME [ "/var/log", "/etc/rsyslog.d" ]
 
-ENTRYPOINT [ "rsyslogd", "-dn" ]
+ENTRYPOINT [ "rsyslogd", "-n" ]
