@@ -5,7 +5,8 @@ RUN  apk update \
 
 ADD rsyslog.conf /etc/rsyslog.conf
 
-EXPOSE 514 514/udp
+EXPOSE 1514 1514/udp
+EXPOSE 1514 1514/tcp
 
 #VOLUME [ "/var/log", "/etc/rsyslog.d" ]
 
